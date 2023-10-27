@@ -1,0 +1,35 @@
+@import "_colors.scss";
+
+.step {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid $white;
+  color: $white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: $light_blue;
+    color: $marine_blue;
+    border-color: $light_blue;
+    transition: ease-out .5s;
+  }
+}
+
+.step-description {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: $white;
+
+  .step-number{
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  .step-title{
+    font-weight: bold;
+  }
+}

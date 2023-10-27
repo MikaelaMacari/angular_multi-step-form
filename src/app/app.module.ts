@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
+import {SidebarComponent} from "./components/sidebar/sidebar.component";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    StoreModule.forRoot({}, {})
+    StoreModule.forRoot({}, {}),
+    SidebarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
