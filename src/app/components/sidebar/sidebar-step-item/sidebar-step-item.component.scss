@@ -16,6 +16,7 @@
     color: $marine_blue;
     border-color: $light_blue;
     transition: ease-out .5s;
+    cursor: pointer;
   }
 }
 
@@ -24,6 +25,10 @@
   flex-direction: column;
   text-transform: uppercase;
   color: $white;
+
+  &:hover {
+    cursor: pointer;
+  }
 
   .step-number{
     font-size: 14px;
