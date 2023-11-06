@@ -1,0 +1,14 @@
+@import "_colors.scss";
+
+.main-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $magnolia;
+  height: 100vh;
+}
+
+.form-container {
+  width: 100%;
+  border: 1px solid black;
+}
