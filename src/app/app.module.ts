@@ -7,6 +7,7 @@ import { StoreModule } from '@ngrx/store';
 import {NgbModule} from "@ng-bootstrap/ng-bootstrap";
 import {SidebarComponent} from "./components/sidebar/sidebar.component";
 import { PageContainerComponent } from './components/page-container/page-container.component';
+import { PersonalInfoComponent } from './components/personal-info/personal-info.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { PageContainerComponent } from './components/page-container/page-contain
     StoreModule.forRoot({}, {}),
     PageContainerComponent,
     SidebarComponent,
+    PersonalInfoComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
