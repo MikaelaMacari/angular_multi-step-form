@@ -1,0 +1,18 @@
+<div class="d-flex flex-column gap-3 mx-5 px-5">
+  <app-section-header description="You have the option of monthly or yearly billing."
+                      title="Select your plan"></app-section-header>
+  <div class="row">
+    <div *ngFor="let card of plans" class="col-4">
+      <app-card [card]="card"></app-card>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12"></div>
+  </div>
+  <div class="d-flex justify-content-between me-5 pe-5 mt-5">
+    <app-button btnClassName="btn-light" label="go back"></app-button>
+    <app-button btnClassName="btn-primary" label="Next step"></app-button>
+  </div>
+</div>
+
+
