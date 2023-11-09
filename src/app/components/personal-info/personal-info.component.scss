@@ -1,0 +1,13 @@
+@import "colors";
+
+.form-label {
+  color: $marine_blue;
+  font-weight: 500;
+}
+
+.form-control {
+  &::placeholder {
+    color: $cool_gray;
+    font-weight: 500;
+  }
+}

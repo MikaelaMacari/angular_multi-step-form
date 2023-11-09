@@ -1,0 +1,18 @@
+@import "colors";
+
+.btn {
+  border: none;
+  text-transform: capitalize;
+}
+
+.btn-primary {
+  background-color: $marine_blue;
+
+  &:hover {
+    background-color: $blue;
+  }
+}
+
+.btn-secondary {
+  background-color: $purplish_blue;
+}
