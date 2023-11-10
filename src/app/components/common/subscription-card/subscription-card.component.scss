@@ -1,0 +1,28 @@
+@import "colors";
+
+span {
+  font-weight: 500;
+}
+
+.subscription-card {
+  background-color: $magnolia;
+}
+
+.form-check-input {
+  &:checked {
+    background-color: $marine-blue;
+    border: none;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.checked {
+  color: $marine-blue;
+}
+
+.default {
+  color: $cool-gray;
+}

@@ -3,11 +3,12 @@ import {CommonModule} from '@angular/common';
 import {ButtonComponent} from "../../common/button/button.component";
 import {SectionHeaderComponent} from "../../common/section-header/section-header.component";
 import {CardComponent} from "../../common/card/card.component";
+import {SubscriptionCardComponent} from "../../common/subscription-card/subscription-card.component";
 
 @Component({
   selector: 'app-select-plan',
   standalone: true,
-  imports: [CommonModule, ButtonComponent, SectionHeaderComponent, CardComponent],
+  imports: [CommonModule, ButtonComponent, SectionHeaderComponent, CardComponent, SubscriptionCardComponent],
   templateUrl: './select-plan.component.html',
   styleUrls: ['./select-plan.component.scss']
 })
