@@ -1,0 +1,34 @@
+@import "colors";
+
+.border-primary {
+  border: 1px solid $marine_blue;
+}
+
+.border-secondary {
+  border: 1px solid $cool_gray;
+}
+
+.card {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.active {
+  background-color: $magnolia;
+  border: 1px solid $marine_blue;
+}
+
+.card-title, card-plan {
+  color: $marine_blue;
+  font-weight: 700;
+}
+
+.card-price {
+  color: $cool_gray;
+  font-weight: 500;
+}
+
+.card-plan {
+  font-weight: 500;
+}

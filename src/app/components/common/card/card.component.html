@@ -1,0 +1,14 @@
+<div (click)="emitClickEvent()" [ngClass]="card.isActive ? 'active' : ''" class="card p-3">
+  <img [alt]="card.title" [src]="card.imageUrl" class="mb-5" height="40" width="40">
+  <div class="d-flex flex-column">
+     <span class="card-title m-0">
+    {{card.title}}
+  </span>
+    <span class="card-price">
+    ${{card.price}}/yr
+  </span>
+    <span class="card-plan">
+    {{card.plan}} months free
+  </span>
+  </div>
+</div>

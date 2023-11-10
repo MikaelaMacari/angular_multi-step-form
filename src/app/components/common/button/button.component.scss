@@ -16,3 +16,15 @@
 .btn-secondary {
   background-color: $purplish_blue;
 }
+
+.btn-light {
+  background-color: $white;
+  color: $cool_gray;
+  font-weight: 500;
+  border: 1px solid $cool_gray;
+
+  &:hover {
+    background-color: $light_gray;
+    border: 1px solid $light_gray;
+  }
+}
