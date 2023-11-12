@@ -11,6 +11,7 @@
 .card {
   &:hover {
     cursor: pointer;
+    border: 1px solid $marine_blue;
   }
 }
 
