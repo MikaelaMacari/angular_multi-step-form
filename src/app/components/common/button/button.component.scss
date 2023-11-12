@@ -17,14 +17,15 @@
   background-color: $purplish_blue;
 }
 
-.btn-light {
+.btn-link {
   background-color: $white;
   color: $cool_gray;
   font-weight: 500;
-  border: 1px solid $cool_gray;
+  text-decoration: none;
+  padding: 0 !important;
 
   &:hover {
-    background-color: $light_gray;
-    border: 1px solid $light_gray;
+    cursor: pointer;
+    color: $marine_blue;
   }
 }
