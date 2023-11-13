@@ -1,0 +1,12 @@
+@import "colors";
+
+.active {
+  background-color: $magnolia;
+  border: 1px solid $marine_blue;
+}
+
+.default {
+  background-color: $white;
+  border: 1px solid $cool_gray;
+
+}
