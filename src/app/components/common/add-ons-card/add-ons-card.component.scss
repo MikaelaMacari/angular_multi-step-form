@@ -1,0 +1,37 @@
+@import "colors";
+
+
+.active {
+  background-color: $magnolia;
+  border: 1px solid $marine_blue;
+}
+
+.default {
+  background-color: $white;
+  border: 1px solid $cool_gray;
+}
+
+.title {
+  color: $marine_blue;
+  font-weight: 700;
+}
+
+.price {
+  color: $purplish_blue;
+  font-weight: 500;
+}
+
+.description {
+  color: $cool_gray;
+  font-weight: 400;
+}
+
+.form-check-input {
+  &:checked {
+    background-color: $purplish_blue;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}

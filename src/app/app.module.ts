@@ -9,6 +9,7 @@ import {SidebarComponent} from "./components/sidebar/sidebar.component";
 import {PageContainerComponent} from './components/page-container/page-container.component';
 import {PersonalInfoComponent} from './components/steps/personal-info';
 import {SelectPlanComponent} from "./components/steps/select-plan";
+import {AddOnsComponent} from "./components/steps/add-ons/add-ons.component";
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import {SelectPlanComponent} from "./components/steps/select-plan";
     SidebarComponent,
     PersonalInfoComponent,
     SelectPlanComponent,
+    AddOnsComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

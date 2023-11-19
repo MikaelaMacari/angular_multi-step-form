@@ -1,0 +1,12 @@
+<div class="d-flex flex-column gap-3 mx-5 px-5">
+  <app-section-header description="Add-ons help enhance your gaming experience."
+                      title="Pick add-ons">
+  </app-section-header>
+  <app-add-ons-card *ngFor="let addOn of addOns" [addOn]="addOn"></app-add-ons-card>
+  <div class="d-flex justify-content-between mt-5">
+    <app-button btnClassName="btn-link" label="go back"></app-button>
+    <app-button btnClassName="btn-primary" label="Next step"></app-button>
+  </div>
+</div>
+
+
