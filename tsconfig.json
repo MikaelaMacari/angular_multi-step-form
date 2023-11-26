@@ -24,8 +24,12 @@
       "dom"
     ],
     "paths": {
-      "@components/*": ["./src/components/*"],
-      "@styles/*": ["./src/assets/scss/*"]
+      "@components/*": [
+        "./src/app/components/*"
+      ],
+      "@styles/*": [
+        "./src/assets/scss/*"
+      ]
     }
   },
   "angularCompilerOptions": {
