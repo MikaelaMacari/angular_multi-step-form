@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {SidebarStepItemComponent} from "@components/sidebar/sidebar-step-item";
 import {ThankYouComponent} from "@components/steps/thank-you";
+import {SidebarComponent} from "@components/sidebar";
 
 @Component({
   selector: 'app-page-container',
@@ -9,7 +10,8 @@ import {ThankYouComponent} from "@components/steps/thank-you";
   standalone: true,
   imports: [
     SidebarStepItemComponent,
-    ThankYouComponent
+    ThankYouComponent,
+    SidebarComponent
   ]
 })
 export class PageContainerComponent {
